@@ -1,0 +1,170 @@
+.baslik{
+    font-family: Century Gothic;
+    color: bisque;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation {
+    0% {
+        color:bisque ;
+    }
+
+    10% {
+        color:rgb(211, 157, 92) ;
+    }
+
+    20% {
+        color:rgb(207, 141, 60) ;
+    }
+
+    30% {
+        color:rgb(201, 115, 9) ;
+    }
+
+    40% {
+        color:rgb(221, 212, 135) ;
+    }
+
+    70% {
+        color:rgb(5, 238, 56) ;
+    }
+    
+    90% {
+        color:rgb(41, 61, 129) ;
+    }
+
+    100% {
+        color: rgb(248, 232, 7);
+    }
+}
+
+.headerBody{
+    background:linear-gradient(#BBD2C5,#536976);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 2rem;
+}
+
+.obje{
+    text-align: center;
+}
+
+.obje-critical{
+    text-align: center;
+    background-color: #CC5D45;
+    font-family: Gill Sans;
+    padding:5px;
+    color:white;
+    transition:.8s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.obje-critical-done{
+    text-align: center;
+    background-color:#cc5e453b ;
+    font-family: Gill Sans;
+    padding:5px;
+    color:black;
+    transition:.8s;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: line-through;
+}
+
+.obje-critical:hover{
+    color:black;
+    background-color:#cc5e453b ;
+}
+
+.obje-important{
+    text-align: center;
+    background-color: #CC9945;
+    font-family: Goudy Old Style;
+    padding:5px;
+    color:white;
+    transition:.8s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.obje-important-done{
+    text-align: center;
+    background-color:#cc98453d ;
+    font-family: Goudy Old Style;
+    padding:5px;
+    color:black;
+    transition:.8s;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: line-through;
+}
+
+.obje-important:hover{
+    color:black;
+    background-color:#cc98453d ;
+}
+
+.obje-routine{
+    text-align: center;
+    background-color: #69C854;
+    font-family: Big Caslon;
+    padding:5px;
+    color:white;
+    transition:.8s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.obje-routine-done{
+    text-align: center;
+    background-color: #69c8543a;
+    font-family: Big Caslon;
+    padding:5px;
+    color:black;
+    transition:.8s;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: line-through;
+}
+
+.obje-routine:hover{
+    color:black;
+    background-color: #69c8543a;
+}
+
+.obje-normal{
+    text-align: center;
+    font-family: Book Antiqua;
+    padding:5px;
+    transition:.8s;
+    cursor: pointer;
+    border-radius: 3px;
+    color:white;
+    background-color:gray ;
+}
+
+.obje-normal-done{
+    text-align: center;
+    font-family: Book Antiqua;
+    padding:5px;
+    transition:.8s;
+    cursor: pointer;
+    border-radius: 3px;
+    color:black;
+    background-color:rgba(128, 128, 128, 0.219) ;
+    text-decoration: line-through;
+}
+
+.obje-normal:hover{
+    color:black;
+    background-color:rgba(128, 128, 128, 0.219) ;
+}
+
+.kutu{
+    border-radius: 10px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
